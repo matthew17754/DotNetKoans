@@ -45,7 +45,7 @@ namespace AutoKoanRunner.Core
 			{
 				return "Do not lose hope.";
 			}
-			return "I sense frustration. Do not be afraid to ask for help.";
+			return "Moradi senses frustration. Do not be afraid to ask for help.";
 		}
 		public static string[] WhereToSeek(string[] lines)
 		{

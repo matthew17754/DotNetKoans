@@ -19,7 +19,7 @@ namespace AutoKoanRunner
 		{
 			if (Array.TrueForAll(KoanSource.Sources, source => Directory.Exists(source.SourceFolder)) == false)
 			{
-				Console.WriteLine("The Koans were not where we expecte them to be.");
+				Console.WriteLine("The Koans were not where Moradi expects them to be.");
 				return;
 			}
 			FileSystemWatcher[] watchers = Array.ConvertAll(
@@ -42,7 +42,7 @@ namespace AutoKoanRunner
 					ResetLastRunData();
 				});
 
-				Console.WriteLine("When you save a Koan, the Master will again ponder your work.");
+				Console.WriteLine("When you save a Koan, the Moradi will again ponder your work.");
 				Console.WriteLine("Press a key to exit...");
 				Console.WriteLine();
 				Console.ReadKey();
@@ -78,7 +78,7 @@ namespace AutoKoanRunner
 		}
 		private static bool BuildProject(KoanSource koans)
 		{
-			Console.WriteLine("Building...");
+			Console.WriteLine("Moradi is Building Koans...");
 			using (Process build = new Process())
 			{
 				build.StartInfo.FileName = "devenv";
@@ -93,7 +93,7 @@ namespace AutoKoanRunner
 		{
 			if (File.Exists(koans.AssemblyPath))
 			{
-				Console.WriteLine("Checking Koans...");
+				Console.WriteLine("Moradi is Checking Koans...");
 				using (Process launch = new Process())
 				{
 					launch.StartInfo.FileName = koansRunner;
@@ -132,7 +132,7 @@ namespace AutoKoanRunner
 		private static void PrintMastersComments(Analysis analysis)
 		{
 			Console.WriteLine();
-			Console.WriteLine("The Master says:");
+			Console.WriteLine("The Moradi says:");
 			Console.ForegroundColor = ConsoleColor.Cyan;
 			Console.WriteLine("\t{0}", Master.StateOfEnlightenment(analysis));
 			string encouragement = Master.Encouragement(analysis);
@@ -160,7 +160,7 @@ namespace AutoKoanRunner
 		private static void PrintFinalWords(Analysis analysis)
 		{
 			Console.WriteLine();
-			Console.WriteLine("sleep is the best meditation");
+			Console.WriteLine("Moradi recommends sleep is the best meditation.");
 			Console.WriteLine("your path thus far [{0}] {1}/{2}", analysis.ProgressBar, analysis.CompletedKoans, analysis.TotalKoans);
 		}
 		private static void PrintTestLineJustTest(string koan, ConsoleColor accent, string action)

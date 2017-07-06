@@ -70,7 +70,7 @@ namespace AutoKoanRunner.Tests
 			a.TotalKoans = 5;
 			a.FailedAttempts = 3;
 
-			Assert.Equal("I sense frustration. Do not be afraid to ask for help.", Master.Encouragement(a));
+			Assert.Equal("Moradi senses frustration. Do not be afraid to ask for help.", Master.Encouragement(a));
 		}
 		[Fact]
 		public void WhereToSeek_FailedKoan_ArrayOfLines()

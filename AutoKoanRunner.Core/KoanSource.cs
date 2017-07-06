@@ -17,13 +17,7 @@ namespace AutoKoanRunner.Core
 			SourceFolder = @"..\..\..\CSharp",
 			AssemblyPath = @"..\..\..\CSharp\bin\debug\csharp.dll"
 		};
-		public static readonly KoanSource VBasic = new KoanSource
-		{
-			Extension = ".vb",
-			ProjectName = "VBNet",
-			SourceFolder = @"..\..\..\VBNet",
-			AssemblyPath = @"..\..\..\VBNet\bin\debug\VBNet.dll"
-		};
-		public static readonly KoanSource[] Sources = new[] { CSharp, VBasic };
+
+		public static readonly KoanSource[] Sources = new[] {CSharp};
 	}
 }

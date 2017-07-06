@@ -43,7 +43,7 @@ namespace DotNetKoans.KoanRunner
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine("Karma has killed the runner. Exception was: " + ex.ToString());
+				Console.WriteLine("Moradi has killed the runner. Exception was: " + ex.ToString());
 				return -1;
 			}
 			Console.WriteLine("Koan progress:{0}", progress.ToString());
@@ -88,7 +88,7 @@ namespace DotNetKoans.KoanRunner
 
             if (numberOfTestsActuallyRun != highestKoanNumber)
             {
-                Console.WriteLine("!!!!WARNING - Some Koans appear disabled. The highest koan found was {0} but we ran {1} koan(s)",
+                Console.WriteLine("!!!!WARNING - Moradi senses some koans are disabled. The highest koan found was {0} but we ran {1} koan(s)",
                     highestKoanNumber, numberOfTestsActuallyRun);
             }
 			return string.Format("({0}/{1})", numberOfTestsPassed, numberOfTestsActuallyRun);
