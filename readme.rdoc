@@ -1,10 +1,13 @@
-= DotNet Koans C#
+= Koans.NET C#
 
 The .NET Koans for C# will help you along the path to enlightenment in order to learn C#.NET. The main goal is to learn and practice the main syntax, structure, and some common functions and .NET libraries of the C# language. The Moradi shall guide you through everything you need to know toward enlightenment and you "should" be a pro in no time.
 
 Instructions: 
 1. In order to start the koans, open up the DotNetKoans.sln solution in your Visual Studio 2015 IDE and build the solution. 
-2. Then in File Explorer, navigate to where you cloned the project/repo and navigate to DotNetKoans-master\AutoKoanRunner\bin\Debug\AutoKoanRunner.exe
-3. Run the koans and follow the Moradi to enlightenment. 
+2. Then in File Explorer, navigate to where you cloned the project/repo and navigate to DotNetKoans-master/AutoKoanRunner/bin/Debug/AutoKoanRunner.exe
+3. Each time you perform/modify a koan, make sure to Build(Ctrl+B) and Save(Ctrl+S) the changes in order for the console to update.
+4. Progress through the koans and follow the Moradi to enlightenment. 
 
 The original .NET Koans were created and developed by Cory Foy. I basically added some features and improvements for C# developers and removed the VB.NET implementations. You're welcome C# developers. May the Moradi guide you well toward enlightenment.
+
+![alt tag](https://github.com/matthew17754/DotNetKoans/blob/master/CSharp-Koans.png "C#Koans.NET")
