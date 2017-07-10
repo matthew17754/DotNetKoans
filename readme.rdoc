@@ -10,4 +10,4 @@ Instructions:
 
 The original .NET Koans were created and developed by Cory Foy. I basically added some features and improvements for C# developers and removed the VB.NET implementations. You're welcome C# developers. May the Moradi guide you well toward enlightenment.
 
-![csharp-koans](https://user-images.githubusercontent.com/14935352/28003232-f8e1495c-64f0-11e7-8d2a-ffd3fbb9b323.png)
+https://github.com/matthew17754/DotNetKoans/blob/master/CSharp-Koans.png
