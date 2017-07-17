@@ -161,7 +161,7 @@ namespace AutoKoanRunner
 		{
 			Console.WriteLine();
 			Console.WriteLine("Moradi recommends sleep is the best meditation.");
-			Console.WriteLine("your path thus far [{0}] {1}/{2}", analysis.ProgressBar, analysis.CompletedKoans, analysis.TotalKoans);
+			Console.WriteLine("Your path thus far [{0}] {1}/{2}", analysis.ProgressBar, analysis.CompletedKoans, analysis.TotalKoans);
 		}
 		private static void PrintTestLineJustTest(string koan, ConsoleColor accent, string action)
 		{
